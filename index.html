@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora</title>
+    <link rel="shortcut icon" href="./img/favicon.webp" />
+    <link rel="stylesheet" href="./styles/main.css" />
+  </head>
+  <body onload="init()">
+    <div class="wrapper">
+      <h1>Calculadora Bàsica</h1>
+      <hr />
+
+      <div class="pantalla">
+        <!-- <input type="number" name="" id="resultado" value="0" /> -->
+        <span id="resultado"></span>
+      </div>
+
+      <div class="fila">
+        <input id="reset"  class="grey clear" type="button" value="AC" />
+        <input class="grey clear" type="button" value="CE" />
+        <input id="division" class="arit" type="button" value="/" />
+        <input id="multiplicacion" class="arit" type="button" value="*" />
+      </div>
+
+      <div class="fila">
+        <input id="siete" type="button" value="7" />
+        <input id="ocho" type="button" value="8" />
+        <input id="nueve" type="button" value="9" />
+        <input id="resta" class="arit" type="button" value="-" />
+      </div>
+
+      <div class="fila">
+        <input id="cuatro" type="button" value="4" />
+        <input id="cinco" type="button" value="5" />
+        <input id="seis" type="button" value="6" />
+        <input id="suma" class="arit" type="button" value="+" />
+      </div>
+
+      <div class="fila">
+        <input id="uno" type="button" value="1" />
+        <input id="dos" type="button" value="2" />
+        <input id="tres" type="button" value="3" />
+        <input id="potencia" class="arit" type="button" value="^" />
+      </div>
+
+      <div class="fila">
+        <input id="cero" type="button" value="0" />
+        <input id="punto" type="button" value="." />
+        <input id="resto" class="arit" type="button" value="%" />
+        <input id="igual" class="orange" type="button" value="=" />
+      </div>
+    </div>
+
+    <script src="./scripts/main.js"></script>
+  </body>
+</html>
