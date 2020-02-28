@@ -87,7 +87,7 @@ body {
 @media (max-width: 900px) {
 
     body {    
-        background: url(../img/giphy.gif);
+        background: #eee;
         background-repeat: no-repeat;
         background-position: left;
         background-size: initial;
